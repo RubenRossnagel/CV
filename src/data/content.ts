@@ -7,7 +7,7 @@ export const profile = {
     "Siempre dispuesto a aprender y aportar lo mejor. Busco una oportunidad como desarrollador backend, con base sólida en C#, SQL y sistemas de gestión reales.",
   email: "rubenrossnagel@gmail.com",
   phone: "+54 9 3765 224088",
-  whatsapp: "https://web.whatsapp.com/send?phone=+5493765224088",
+  whatsapp: "https://wa.me/5493765224088",
   whatsappLabel: "+54 9 3765 224088",
   linkedin: "https://www.linkedin.com/in/rubenrossnagel/",
   platzi: "https://platzi.com/p/RubenRossnagel/",
