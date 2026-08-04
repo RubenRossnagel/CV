@@ -19,23 +19,23 @@ npm run build
 
 La salida queda en `dist/`.
 
-## Publicar en GitHub Pages (manual)
+## Publicar en GitHub Pages
 
-1. Subí el repo a GitHub.
-2. En el repo: **Settings → Pages**.
-3. Source: **GitHub Actions** o **Deploy from a branch**.
-4. Opción simple sin Actions:
-   - Corré `npm run build` en tu máquina.
-   - Subí el contenido de `dist/` a la rama `gh-pages`, **o** configurá Pages para servir desde `/docs` y copiá `dist/` a `docs/`.
-5. Si usás project site (`usuario.github.io/nombre-repo/`), el proyecto ya usa `base: './'` en `vite.config.ts`, así que los assets relativos funcionan.
+El repo incluye `.github/workflows/deploy.yml`. Al pushear a `main`, GitHub Actions buildea y publica automáticamente.
 
-### Opción recomendada: carpeta `docs`
+1. En el repo: **Settings → Pages**.
+2. **Source:** GitHub Actions (no “Deploy from a branch”).
+3. Pusheá el workflow (y el resto del código) a `main`.
+4. Revisá el run en la pestaña **Actions**.
+5. La URL queda en: `https://rubenrossnagel.github.io/CV/`
+
+Si preferís el método manual con carpeta `docs`:
 
 ```bash
 npm run pages:docs
 ```
 
-Eso genera `docs/` con el build. En GitHub Pages elegí branch `main` / folder `/docs`. Luego subí los cambios cuando quieras.
+Y en Pages elegí branch `main` / folder `/docs`.
 
 ## Contenido
 
