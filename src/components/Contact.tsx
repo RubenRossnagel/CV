@@ -27,6 +27,12 @@ const channels = [
     href: profile.githubPrimary,
     icon: GithubLogo,
   },
+  {
+    label: "GitHub",
+    value: "RossnagelRuben",
+    href: profile.githubSecondary,
+    icon: GithubLogo,
+  },
 ] as const
 
 export function Contact() {
@@ -52,7 +58,7 @@ export function Contact() {
           {channels.map((channel, index) => {
             const Icon = channel.icon
             return (
-              <Reveal key={channel.label} delay={index * 0.05}>
+              <Reveal key={`${channel.label}-${channel.value}`} delay={index * 0.05}>
                 <a
                   href={channel.href}
                   target={channel.href.startsWith("mailto:") ? undefined : "_blank"}

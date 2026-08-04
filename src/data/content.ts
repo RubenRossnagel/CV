@@ -63,7 +63,7 @@ export const projects = [
     blurb:
       "Reconocimiento de imágenes y extracción de caracteres con Vision API y OpenAI.",
     stack: ["C#", "Vision API", "OpenAI"],
-    href: "https://github.com/RossnagelRuben/VISIONGOOGLE",
+    href: "https://github.com/RubenRossnagel/VISIONGOOGLE",
     image: "./images/project-vision.png",
     accent: "vision" as const,
   },
@@ -72,7 +72,7 @@ export const projects = [
     blurb:
       "Sistema de gestión para casas de repuestos: stock, ventas y operación diaria.",
     stack: ["HTML", "TypeScript", "Gestión"],
-    href: "https://github.com/RubenRossnagel/Autopartes_LEO",
+    href: "https://github.com/RossnagelRuben/Autopartes_LEO",
     image: "./images/project-gestion.png",
     accent: "gestion" as const,
   },
@@ -81,7 +81,7 @@ export const projects = [
     blurb:
       "Sistema de gestión para estudios jurídicos: casos, clientes y administración.",
     stack: ["C#", ".NET", "SQL"],
-    href: "https://github.com/RubenRossnagel/PG",
+    href: "https://github.com/RossnagelRuben/PG",
     image: "./images/project-gestion.png",
     accent: "legal" as const,
   },
@@ -90,7 +90,7 @@ export const projects = [
     blurb:
       "Flujo con códigos QR orientado a mesas y experiencia de atención.",
     stack: ["C#", "QR", "WPF"],
-    href: "https://github.com/RossnagelRuben/QR_Mesas",
+    href: "https://github.com/RubenRossnagel/QR_Mesas",
     image: "./images/project-qr.png",
     accent: "qr" as const,
   },
